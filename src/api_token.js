@@ -1,1 +1,1 @@
-export const API_TOKEN = 'bbd454c1b48e8380714b1a22c549e9853b758d45';
+export const API_TOKEN = 'PLACE_TOKEN_HERE';
