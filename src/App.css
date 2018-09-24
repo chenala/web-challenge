@@ -1,0 +1,26 @@
+.content-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.add-remove-button {
+    color: rgb(116, 51, 241);
+    text-decoration: underline;
+}
+
+.add-remove-button:hover {
+    cursor: pointer;
+}
+
+.repo-table {
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+}
+
+.footer{
+    min-height: 60px;
+}
