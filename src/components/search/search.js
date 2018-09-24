@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { addFavorite } from '../../store/actions/actionCreators';
 import './search.css';
+import { API_TOKEN } from '../../api_token';
 
 class Search extends React.Component {
     constructor(props) {
@@ -37,7 +38,7 @@ class Search extends React.Component {
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer 634efe5524ca8b979fdf585aa91a09f65afc2518',
+                'Authorization': `Bearer ${API_TOKEN}`,
             },
             body: JSON.stringify({query}),
         })
